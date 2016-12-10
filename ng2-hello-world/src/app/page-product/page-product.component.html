@@ -1,0 +1,10 @@
+<h1>Product</h1>
+
+<ul>
+    <div *ngFor="let product of products">
+        <li>
+            <p>{{product.name}}</p>
+            <a href="products/{{product.id}}">{{product.name}} </a>
+        </li>
+    </div>
+</ul>
